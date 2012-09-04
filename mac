@@ -29,6 +29,9 @@ export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
 echo "Installing Postgres, a good open source relational database ..."
   brew install postgres --no-python
 
+echo "Installing MongoDB, a good open source non relational database ..."
+  brew install mongo
+
 echo "Installing ack, a good way to search through files ..."
   brew install ack
 
